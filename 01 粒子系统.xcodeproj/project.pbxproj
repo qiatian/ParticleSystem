@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D6DEB8E32042958B0070F1A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB8E22042958B0070F1A4 /* main.m */; };
 		D6DEB8E62042958B0070F1A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB8E52042958B0070F1A4 /* AppDelegate.m */; };
-		D6DEB8E92042958B0070F1A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB8E82042958B0070F1A4 /* ViewController.m */; };
 		D6DEB8EC2042958B0070F1A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB8EA2042958B0070F1A4 /* Main.storyboard */; };
 		D6DEB8EE2042958B0070F1A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB8ED2042958B0070F1A4 /* Assets.xcassets */; };
 		D6DEB8F12042958B0070F1A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB8EF2042958B0070F1A4 /* LaunchScreen.storyboard */; };
 		D6DEB8FC2042958B0070F1A4 /* _1_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB8FB2042958B0070F1A4 /* _1_____Tests.m */; };
 		D6DEB9072042958B0070F1A4 /* _1_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB9062042958B0070F1A4 /* _1_____UITests.m */; };
+		D6DEB9172042F6E50070F1A4 /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB9162042F6E50070F1A4 /* CCViewController.m */; };
+		D6DEB91A2042F7370070F1A4 /* CCPointParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB9192042F7370070F1A4 /* CCPointParticleEffect.m */; };
+		D6DEB91D2042F7540070F1A4 /* CCVertexAttribArrayBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DEB91C2042F7540070F1A4 /* CCVertexAttribArrayBuffer.m */; };
+		D6DEB91F2042F7700070F1A4 /* CCPointParticleShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB91E2042F7700070F1A4 /* CCPointParticleShader.vsh */; };
+		D6DEB9212042F77E0070F1A4 /* CCPointParticleShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB9202042F77E0070F1A4 /* CCPointParticleShader.fsh */; };
+		D6DEB923204433210070F1A4 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = D6DEB922204433210070F1A4 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		D6DEB8E22042958B0070F1A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6DEB8E42042958B0070F1A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DEB8E52042958B0070F1A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6DEB8E72042958B0070F1A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6DEB8E82042958B0070F1A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D6DEB8EB2042958B0070F1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6DEB8ED2042958B0070F1A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DEB8F02042958B0070F1A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,15 @@
 		D6DEB9022042958B0070F1A4 /* 01 粒子系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01 粒子系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DEB9062042958B0070F1A4 /* _1_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_____UITests.m"; sourceTree = "<group>"; };
 		D6DEB9082042958B0070F1A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DEB9152042F6E50070F1A4 /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		D6DEB9162042F6E50070F1A4 /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		D6DEB9182042F7370070F1A4 /* CCPointParticleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPointParticleEffect.h; sourceTree = "<group>"; };
+		D6DEB9192042F7370070F1A4 /* CCPointParticleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPointParticleEffect.m; sourceTree = "<group>"; };
+		D6DEB91B2042F7540070F1A4 /* CCVertexAttribArrayBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVertexAttribArrayBuffer.h; sourceTree = "<group>"; };
+		D6DEB91C2042F7540070F1A4 /* CCVertexAttribArrayBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVertexAttribArrayBuffer.m; sourceTree = "<group>"; };
+		D6DEB91E2042F7700070F1A4 /* CCPointParticleShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CCPointParticleShader.vsh; sourceTree = "<group>"; };
+		D6DEB9202042F77E0070F1A4 /* CCPointParticleShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = CCPointParticleShader.fsh; sourceTree = "<group>"; };
+		D6DEB922204433210070F1A4 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,10 @@
 			children = (
 				D6DEB8E42042958B0070F1A4 /* AppDelegate.h */,
 				D6DEB8E52042958B0070F1A4 /* AppDelegate.m */,
-				D6DEB8E72042958B0070F1A4 /* ViewController.h */,
-				D6DEB8E82042958B0070F1A4 /* ViewController.m */,
+				D6DEB9152042F6E50070F1A4 /* CCViewController.h */,
+				D6DEB9162042F6E50070F1A4 /* CCViewController.m */,
+				D6DEB924204433260070F1A4 /* res */,
+				D6DEB9142042F6B60070F1A4 /* Kit */,
 				D6DEB8EA2042958B0070F1A4 /* Main.storyboard */,
 				D6DEB8ED2042958B0070F1A4 /* Assets.xcassets */,
 				D6DEB8EF2042958B0070F1A4 /* LaunchScreen.storyboard */,
@@ -138,6 +152,27 @@
 				D6DEB9082042958B0070F1A4 /* Info.plist */,
 			);
 			path = "01 粒子系统UITests";
+			sourceTree = "<group>";
+		};
+		D6DEB9142042F6B60070F1A4 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEB9182042F7370070F1A4 /* CCPointParticleEffect.h */,
+				D6DEB9192042F7370070F1A4 /* CCPointParticleEffect.m */,
+				D6DEB91B2042F7540070F1A4 /* CCVertexAttribArrayBuffer.h */,
+				D6DEB91C2042F7540070F1A4 /* CCVertexAttribArrayBuffer.m */,
+				D6DEB91E2042F7700070F1A4 /* CCPointParticleShader.vsh */,
+				D6DEB9202042F77E0070F1A4 /* CCPointParticleShader.fsh */,
+			);
+			name = Kit;
+			sourceTree = "<group>";
+		};
+		D6DEB924204433260070F1A4 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				D6DEB922204433210070F1A4 /* ball.png */,
+			);
+			name = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +283,10 @@
 			files = (
 				D6DEB8F12042958B0070F1A4 /* LaunchScreen.storyboard in Resources */,
 				D6DEB8EE2042958B0070F1A4 /* Assets.xcassets in Resources */,
+				D6DEB923204433210070F1A4 /* ball.png in Resources */,
 				D6DEB8EC2042958B0070F1A4 /* Main.storyboard in Resources */,
+				D6DEB9212042F77E0070F1A4 /* CCPointParticleShader.fsh in Resources */,
+				D6DEB91F2042F7700070F1A4 /* CCPointParticleShader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DEB8E92042958B0070F1A4 /* ViewController.m in Sources */,
+				D6DEB91D2042F7540070F1A4 /* CCVertexAttribArrayBuffer.m in Sources */,
 				D6DEB8E62042958B0070F1A4 /* AppDelegate.m in Sources */,
 				D6DEB8E32042958B0070F1A4 /* main.m in Sources */,
+				D6DEB9172042F6E50070F1A4 /* CCViewController.m in Sources */,
+				D6DEB91A2042F7370070F1A4 /* CCPointParticleEffect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +549,7 @@
 				D6DEB90D2042958B0070F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6DEB90E2042958B0070F1A4 /* Build configuration list for PBXNativeTarget "01 粒子系统Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +558,7 @@
 				D6DEB9102042958B0070F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6DEB9112042958B0070F1A4 /* Build configuration list for PBXNativeTarget "01 粒子系统UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +567,7 @@
 				D6DEB9132042958B0070F1A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
